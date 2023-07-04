@@ -10,8 +10,11 @@ from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper
 from langchain.chat_models import ChatOpenAI
 
-openai_api_key = st.text_input('Enter your OpenAI API key: ')
-openai.api_key = openai_api_key
+openai_api_key = st.text_input('Enter your OpenAI API key: ', value=os.getenv('OPENAI_API_KEY', ''))
+openai.api_key = openai_api_key if openai_api_key else os.getenv('OPENAI_API_KEY')
+if not openai.api_key:
+    st.error('OpenAI API key is missing. Please enter it in the text box or set the OPENAI_API_KEY environment variable.')
+    st.stop()
 
 # App UI framework
 st.title('🔋👨‍⚖️ ParetoPal')
