@@ -1,1 +1,1 @@
-# langchain-tweet-gen
+# pareto-pal
