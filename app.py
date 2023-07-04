@@ -11,7 +11,7 @@ from langchain.utilities import WikipediaAPIWrapper
 from langchain.chat_models import ChatOpenAI
 
 openai_api_key = st.text_input('Enter your OpenAI API key: ')
-openai.api_key = openai_api_key
+# openai.api_key = openai_api_key
 
 # App UI framework
 st.title('🔋👨‍⚖️ ParetoPal')
