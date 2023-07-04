@@ -10,8 +10,8 @@ from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper
 from langchain.chat_models import ChatOpenAI
 
-# openai.api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key = os.environ.get('OPENAI_API_KEY')
+openai_api_key = st.text_input('Enter your OpenAI API key: ')
+openai.api_key = openai_api_key
 
 # App UI framework
 st.title('🔋👨‍⚖️ ParetoPal')
