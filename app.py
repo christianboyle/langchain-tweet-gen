@@ -33,7 +33,7 @@ wiki = WikipediaAPIWrapper()
 title_memory = ConversationBufferMemory(input_key='topic', memory_key='chat_history')
 
 # Llms
-llm = ChatOpenAI(model_name="gpt-4", temperature=0.9) 
+llm = ChatOpenAI(model_name="gpt-4", temperature=0.9, openai_api_key=openai_api_key) 
 title_chain = LLMChain(llm=llm, prompt=title_template, verbose=True, output_key='title', memory=title_memory)
 
 # Chaining the components and displaying outputs
