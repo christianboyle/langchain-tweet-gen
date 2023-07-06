@@ -27,6 +27,8 @@ streamlit run app.py
 
 ![how-to-lift-weights](https://github.com/christianboyle/pareto-pal/assets/1605754/df9a3fc5-3592-410d-9b7a-19c1cd24cc9f)
 
+![raising-children](https://github.com/christianboyle/pareto-pal/assets/1605754/83099da7-6b80-4ee1-9677-6a6880fa19d5)
+
 ![potty-training](https://github.com/christianboyle/pareto-pal/assets/1605754/c04d2b59-4fd9-42de-bbe2-70735e35b9e1)
 
 ![learn-how-to-play-the-saxophone](https://github.com/christianboyle/pareto-pal/assets/1605754/2ea41c19-5727-4766-83e8-6c9660be89f9)
