@@ -23,6 +23,8 @@ streamlit run app.py
 
 # examples
 
+![meditation](https://github.com/christianboyle/pareto-pal/assets/1605754/30066b85-db07-4cf8-997f-14ed05bb9b84)
+
 ![how-to-run-an-ebay-store](https://github.com/christianboyle/pareto-pal/assets/1605754/06b55754-459f-4aea-8574-6dbd15269137)
 
 ![how-to-lift-weights](https://github.com/christianboyle/pareto-pal/assets/1605754/df9a3fc5-3592-410d-9b7a-19c1cd24cc9f)
@@ -31,4 +33,3 @@ streamlit run app.py
 
 ![potty-training](https://github.com/christianboyle/pareto-pal/assets/1605754/c04d2b59-4fd9-42de-bbe2-70735e35b9e1)
 
-![learn-how-to-play-the-saxophone](https://github.com/christianboyle/pareto-pal/assets/1605754/2ea41c19-5727-4766-83e8-6c9660be89f9)
